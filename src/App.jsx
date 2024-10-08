@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Model } from "./models/Trump.jsx";
+import { Trump } from "./models/Trump.jsx";
 import {Van} from "./models/Van"
 import {
   Environment,

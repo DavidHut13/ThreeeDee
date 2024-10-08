@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-export function Model(props) {
+export function Trump(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/lowpoly_trump_free_character.glb");
   console.log(materials.TrumpLPmat);
